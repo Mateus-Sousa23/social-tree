@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --body-bg-color: #faf7fd;
+  --font-color: #bb99dd;
+  --purple: #bb99dd;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--body-bg-color);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main span {
+  color: var(--font-color);
+  display: block;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+/* Social Tree */
+.social-tree {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-tree img:nth-child(1) {
+  max-width: 200px;
+  align-self: center;
+}
+
+/* Lista de Links */
+.links {
+  margin: 38px 0;
+}
+
+.links li {
+  list-style: none;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+  max-width: 326px;
+  height: 49px;
+  border: 2px solid var(--font-color);
+  border-radius: 4px;
+}
+
+.links a {
+  color: var(--font-color);
+  display: block;
+  padding-top: 10px;
+  text-decoration: None;
+}
+
+/* Icones com links */
+.icons ul {
+  display: flex;
+  gap: 10px;
+  padding: 0px 68px 68px 68px;
+  justify-content: center;
+}
